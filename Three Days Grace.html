@@ -1,110 +1,57 @@
-<!DOCTYPE HTML>
-<head>
-    <title>lending</title>
-    <style>
-        .header {
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Three Days Grace</title>
+        
+        <style>
+            
+            .header {
             padding: 25px;
             left: 0 px;
             top: 0px;
             right: 0px;
             z-index: 666;
-            background: rgba(243, 255, 138, 0.9);
-        }
-        .menu-nav_item {
+            background: rgba(0, 0, 0, 0.9);
+            display: flex;
+            flex-direction: row;
+            }
+            .menu-nav_item {
             list-style: none;
-        }
-        .menu-nav_link {
-            text-decoration: none;
-            display: inline-block;
-            color: rgb(255, 1, 1);
-            font-weight: 400;
-            font-size: 12px;
-            outline: none;
-            text-transform: uppercase;
-        }
-        .section_banner {
-            background: url(picture/banner-bg.jpg);
-            background-size: cover;
-        }
-        .conteiner {
-            max-width: 1140px;
-            padding: 0 15px;
-            margin: 0 auto;
-        }
-        .banner {
-            margin-top: 120px;
-            padding: 120px 0;
-        }
-        .banner-text_header {
-            color: white;
-            font-size: 48px;
-            font-weight: 600;
-            text-align: center;
-        }
-        .banner-text_body {
-            text-decoration: none;
-            text-align: center;
-            color:white;
-            font-size: 14px;
-            font-weight: 300;
-        }
-        .banner-text_body a {
-            text-decoration: none;
-            color:white;
-            font-weight: 300;
-            font-size: 14px;
-        }
-        .banner-text_body span {
-            color:white;
-            font-size: 14px;
-            font-weight: 300;
-            padding: 0 5px;
-        }
-        *{
-            padding: 0;
-            margin: 0;
-        }
+            }
+            .menu-logo_ink {
+                width: 100px;
+                height: 100px;
+            }
+            .menu-nav_item{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                text-decoration: none;
+                position: absolute;
+            }
+            
+        </style>
 
-    </style>
-</head>
-<body>
-    <header class="header">
-    <div class="container">
-        <div class="menu">
-            <div class="menu-logo">
-                <a href="#" class="menu-logo_link"> <img src="picture/666.png"> </a>
-            </div>
-            <div class="menu-nav-container">
+    </head>
+
+    <body>
+        <header class="header">
                 <div class="container">
-                    <ul class="menu-nav">
-                        <li class="menu-nav_item"> <a href="#" class="menu-nav_link"> Home </a> </li>
-                        <li class="menu-nav_item"> <a href="#" class="menu-nav_link"> Settings </a> </li>
-                        <li class="menu-nav_item"> <a href="#" class="menu-nav_link"> End </a> </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    </header>
-    <main class="main">
-        <section class="section section_banner">
-            <div class="container">
-                <div class="banner-conteiner">
-                    <div class="banner">
-                        <div class="banner-text">
-                            <h1 class="banner-text_header"> Products </h1>
-                            <div class="banner-text_body">
-                                <a href="#"> Home </a>
-                                <span> -> </span>
-                                <a href="#"> Products </a>
+                        <div class="menu">
+                            <div class="menu-logo">
+                                    <a href="#" class="menu-logo_link"> <img class="menu-logo_ink" src="pic/outsider.jpg"> </a>                                
+                                <a href="#" class="menu-logo_link">  </a>
+                            </div>
+                            <div class="menu-nav-container">
+                                <div class="container">
+                                    <ul class="menu-nav">
+                                        <li class="menu-nav_item"> <a href="#"> Главная  </a> </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <section class="section section_main">
-    </section>
-</body>
+        </header>
+
+    </body>
 </html>
