@@ -1,119 +1,92 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="script.js"></script>
+        <title> Three Days Grace</title>
+>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
-        <title> Three Days Grace</title>
+
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/footer.css">
         
         <style>
 
             body {
                 background: url(pic/back1.jpg);
-                            
-            }
-            .header {
-            padding: 20px;
-            left: 0 px;
-            top: 0px;
-            right: 0px;
-            z-index: 666;
-            background: rgb(54, 54, 73);
-            display: flex;
-            flex-direction: row;
-            }
-            .menu-nav_item {
-            list-style: none;
-            }
-            .menu-logo_ink {
-                width: 100px;
-                height: 100px;
-            }
-            .menu-nav_item{
-                display: flex;
-                flex-direction: column;
-                text-align: center;
-                text-decoration: none;
+                background-repeat: no-repeat;
+                background-size: 100%;
+                margin-left: 15%;
+                margin-right: 15%;
             }
             .container {
                 display: flex;
                 flex-direction: column;
                 text-align: center;
+                width: 1100px;
             }
             .main{
                 display: flex;
                 flex-direction: row;
 
             }
-            .article {
-
-                flex: 3;
-                order: 2;
-                padding: 10px;
-            }
-            .left {
-                
-                flex: 2;
-                order: 1;
-            }
-            .right {
-
-                flex: 2;
-                order: 3;
-            }
-            .footer {
-                padding: 10px;
-                background: rgb(0, 0, 0);
-            }
-            .name {
-                
-                font-size: 50px;
-            }
             
+            h6 {
+                color: white;
+                
+            }
+   
         </style>
 
     </head>
 
     <body>
-        <header class="header">
-            
+        <header class="header ">
+            <div class="row">
                 <nav class="navbar navbar-dark bg-dark">
-                        <a class="navbar-brand" href="#">
-                          <img src="pic/outsider.jpg" width="100" height="100" class="d-inline-block align-top" alt="">
-                          
+                        <a class="navbar-brand" href="#">  
+                                <img src="pic/outsider.jpg" width="100" height="100" class="d-inline-block align-top" alt="">
+                                 Three Days Grace                        
                         </a>
-                        <div class="name">Three Days Grace</div>
-                </nav>
-   
-        </header>
-
-        <main class="main">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-lg-12">
-                        <img src="pic/concert.jpeg"  width="250" height="250" align="left">                        
+                        
+                </nav>    
+                <div class="menu-nav-container">
+                    <div class="container">
+                        <ul class="menu-nav">
+                            <li class="menu-nav_item"> <a href="#"> Home </a> </li> 
+                            <li class="menu-nav_item"> <a href="#"> Music </a> </li>
+                            <li class="menu-nav_item"> <a href="#"> News </a> </li>
+                            <li class="menu-nav_item"> <a href="#"> Coming Concerts </a> </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </main>
+        </header>
+
+        <main class="main container">
         
-        <main class="main">
-            <div class="container">
+
+                <div class="row">
+                    <div class="col-sm-12 col-lg-12">
+                    </div>
+                </div>
+            
                 <div class="row">
                     <div class="col-sm-12 col-lg-4">
-                        <h1>Article Title</h2>
-                            <p class="text-muted">
-                                <a href="#"></a>
-                            </p>
+                            
+                        <h6>         
+                                <img src="pic/concert.jpeg" width="250" height="250" align="left">                
+                            Three Days Grace — канадская рок-группа, исполняющая альтернативный метал и постгранж. Была сформирована под названием Groundswell в Норвуде, Онтарио, Канада в 1992 году. В 1997 году коллектив в составе гитариста и вокалиста Адама Гонтье, барабанщика Нила Сандерсона и басиста Брэда Уолста сменил название на нынешнее.
+                        </h6>
                                                         
                     </div>
-                </div>    
-            </div>
+                </div>  
+
         </main>
 
-        <footer class="footer">
-            Официальные страницы
+        <footer class="footer container">
+            <h5> Официальные страницы </h5>
         </footer>
+
     </body>
 </html>
