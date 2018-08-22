@@ -1,10 +1,25 @@
 .footer {
     padding: 10px;
+    left: 0;
+    right: 0;
     background: rgb(0, 0, 0);
 }
-@media screen and (max-width: 1140px) {
-    .footer {
-        padding: 30px 0;
-    }
+h6 {
+    color: rgb(129, 129, 129);
+}
+li {
+    color: rgb(0, 0, 0);
+}
+li:hover {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.link {
+    color: rgb(255, 205, 205);
+    text-decoration: none;
+    font-size: 10px;
     
+}
+ol {
+    list-style-type: none;
 }
